@@ -23,6 +23,9 @@ function Page3() {
     <div>
       <h2>Your Fortune 🔮</h2>
       <p>{fortune}</p>
+      <button onClick={() => window.location.href = "/"} style={{ marginTop: "20px" }}>
+  🔁 Start Over
+</button>
     </div>
   );
 }
